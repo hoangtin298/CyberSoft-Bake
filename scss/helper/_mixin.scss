@@ -1,0 +1,21 @@
+@mixin custom-input() {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@mixin custom-social-btn($length) {
+  display: inline-block;
+
+  text-decoration: none;
+  color: $color-white;
+
+  border: 1px solid $color-white;
+
+  width: $length;
+  height: $length;
+  line-height: $length;
+  text-align: center;
+
+  margin-right: 20px;
+}

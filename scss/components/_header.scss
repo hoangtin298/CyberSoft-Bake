@@ -1,0 +1,22 @@
+.header {
+  background-color: $color-primary !important;
+  .navbar {
+    background-color: $color-primary !important;
+    .navbar-brand {
+      font-size: 30px;
+    }
+    a {
+      color: $color-white !important;
+      font-size: 14px;
+      margin: 0 15px;
+      &:hover {
+        color: $color-secondary !important;
+      }
+    }
+    .active {
+      a {
+        color: $color-secondary !important;
+      }
+    }
+  }
+}

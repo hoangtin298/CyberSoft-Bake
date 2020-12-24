@@ -1,0 +1,15 @@
+@media screen and (max-width: 890px) {
+  .map {
+    iframe {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    iframe {
+      height: 200px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.footer {
+  background-color: #010101;
+  h1 {
+    color: $color-secondary;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  p {
+    color: $color-white;
+  }
+
+  .social {
+    a {
+      @include custom-social-btn(30px);
+    }
+  }
+
+  .list {
+    .date {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
+      margin-bottom: 5px;
+    }
+  }
+
+  button {
+    @include custom-input();
+    font-weight: 700;
+    background-color: $color-secondary;
+    border: none;
+    //   outline: none;
+    &:focus {
+      background-color: $color-white;
+      color: $color-secondary;
+      outline-color: $color-secondary;
+    }
+
+    width: 40% !important;
+  }
+  input {
+    @include custom-input();
+    width: 60% !important;
+  }
+}

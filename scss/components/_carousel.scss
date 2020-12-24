@@ -1,0 +1,23 @@
+.carousel {
+  background: url(../../images/b3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+
+  .container {
+    text-align: center;
+    h1 {
+      margin: 10px 0;
+    }
+    a {
+      color: $color-white;
+      text-decoration: none;
+      background-color: $color-secondary;
+      padding: 10px 20px;
+
+      border: 1px solid $color-white;
+      border-radius: 10px;
+    }
+  }
+}

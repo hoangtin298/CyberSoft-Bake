@@ -1,0 +1,42 @@
+.intro {
+  .col-violet {
+    background-color: $color-primary;
+  }
+  .col-pink {
+    background-color: $color-secondary;
+  }
+  .col-pink-blur {
+    opacity: 0.6;
+  }
+
+  .col-violet-blur {
+    opacity: 0.6;
+  }
+
+  .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      font-size: 25px;
+      letter-spacing: 1px;
+      margin-top: 5px !important;
+      margin-bottom: 0 !important;
+    }
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .item {
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

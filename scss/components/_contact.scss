@@ -1,0 +1,32 @@
+.contact {
+  .form {
+    input[type="text"],
+    input[type="email"] {
+      @include custom-input();
+    }
+
+    textarea {
+      @include custom-input();
+      &::placeholder {
+        font-weight: 700;
+      }
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+    }
+
+    button {
+      @include custom-input();
+      font-weight: 700;
+      background-color: $color-secondary;
+      border: none;
+      //   outline: none;
+      &:focus {
+        background-color: $color-white;
+        color: $color-secondary;
+        outline-color: $color-secondary;
+      }
+    }
+  }
+}
